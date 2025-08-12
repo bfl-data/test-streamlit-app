@@ -1,0 +1,21 @@
+1. Create ProjectFolder
+2. cd ProjectFolder
+3. py -m venv venv
+4. venv\Scripts\activate
+5. py -m pip install streamlit pandas numpy altair plotly
+6. py -m pip list
+7. py -m pip freeze > requirements.txt
+8. Create app.py file and write your app code
+9. streamlit run app.py
+10. venv\Scripts\deactivate
+
+-----------------------------
+
+1. cd ProjectFolder
+2. py -m venv venv
+3. venv\Scripts\activate
+4. py -m pip install -r requirements.txt
+5. py -m pip list
+6. Modify app.py file and write your app code
+7. py app.py
+8. venv\Scripts\deactivate
